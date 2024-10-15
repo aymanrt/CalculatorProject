@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>آلة حاسبة</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="display" readonly>
+    <div class="buttons">
+      <button onclick="press('1')" class="red-button">1</button>
+      <button onclick="press('2')" class="blue-button">2</button>
+      <button onclick="press('3')" class="red-button">3</button>
+      <button onclick="press('+')" class="blue-button">+</button>
+      <button onclick="press('4')" class="red-button">4</button>
+      <button onclick="press('5')" class="blue-button">5</button>
+      <button onclick="press('6')" class="red-button">6</button>
+      <button onclick="press('-')" class="blue-button">-</button>
+      <button onclick="press('7')" class="red-button">7</button>
+      <button onclick="press('8')" class="blue-button">8</button>
+      <button onclick="press('9')" class="red-button">9</button>
+      <button onclick="press('*')" class="blue-button">*</button>
+      <button onclick="press('0')" class="red-button">0</button>
+      <button onclick="press('/')" class="blue-button">/</button>
+      <button onclick="calculate()" class="red-button">=</button>
+      <button onclick="clearDisplay()" class="blue-button">C</button>
+    </div>
+    <p class="developer-name">ayman rt</p>
+  </div>
+  <script src="script.js"></script>
+  <script src="calculator.js"></script>
+</body>
+</html>
+
